@@ -3,7 +3,7 @@ This template makes it easy to set up a NextJS site for your people.rit.edu page
 
 ## Quickstart
 1. Create a new repo using the template
-2. On the repo's GitHub page, go to `settings > environments > new environment`. Name it deploy.
+2. On the repo's GitHub page, go to `settings > environments > deploy`.
 3. Add a variable called `SSH_HOST`. Assign it the value `gibson.rit.edu`.
 4. Add a variable called `SSH_USER`. Assign it your RIT username (xyz1234).
 5. Add a secret called `SSH_PASSWORD`. Assign it your RIT account password.
