@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
   output: "export",
   distDir: "out",
   basePath: `/${username}`,
-  assetPrefix: `/${username}/`
+  assetPrefix: `/${username}/`,
+  turbopack: {
+    root: "/"
+  }
 };
 
 export default nextConfig;
